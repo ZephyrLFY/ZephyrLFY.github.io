@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-31T03:18:51.557Z</updated>
+  <updated>2018-12-31T04:02:11.416Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,22 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>测试网址</title>
+    <link href="http://yoursite.com/2018/12/31/%E6%B5%8B%E8%AF%95%E7%BD%91%E5%9D%80/"/>
+    <id>http://yoursite.com/2018/12/31/测试网址/</id>
+    <published>2018-12-31T04:00:24.000Z</published>
+    <updated>2018-12-31T04:02:11.416Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Let’s-have-a-test&quot;&gt;&lt;a href=&quot;#Let’s-have-a-test&quot; class=&quot;headerlink&quot; title=&quot;Let’s have a test:&quot;&gt;&lt;/a&gt;Let’s have a test:&lt;/h1&gt;&lt;p&gt;I want to see how url works.&lt;br&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
