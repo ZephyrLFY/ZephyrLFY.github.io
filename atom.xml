@@ -5,9 +5,9 @@
   <subtitle>Zephyr&#39;s blog</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://ibrucelee.xyz/"/>
   <updated>2018-12-31T04:03:24.657Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://ibrucelee.xyz/</id>
   
   <author>
     <name>Bruce Lee</name>
@@ -18,14 +18,14 @@
   
   <entry>
     <title>测试网址</title>
-    <link href="http://yoursite.com/2018/12/31/%E6%B5%8B%E8%AF%95%E7%BD%91%E5%9D%80/"/>
-    <id>http://yoursite.com/2018/12/31/测试网址/</id>
+    <link href="https://ibrucelee.xyz/2018/12/31/%E6%B5%8B%E8%AF%95%E7%BD%91%E5%9D%80/"/>
+    <id>https://ibrucelee.xyz/2018/12/31/测试网址/</id>
     <published>2018-12-31T04:00:24.000Z</published>
     <updated>2018-12-31T04:03:24.657Z</updated>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;Let’s-have-a-test&quot;&gt;&lt;a href=&quot;#Let’s-have-a-test&quot; class=&quot;headerlink&quot; title=&quot;Let’s have a test:&quot;&gt;&lt;/a&gt;Let’s have a test:&lt;/h1&gt;&lt;p&gt;I want to see how url works.&lt;br&gt;&lt;/p&gt;
+      &lt;h1 id=&quot;Let’s-have-a-test&quot;&gt;&lt;a href=&quot;#Let’s-have-a-test&quot; class=&quot;headerlink&quot; title=&quot;Let’s have a test:&quot;&gt;&lt;/a&gt;Let’s have a test:&lt;/h1&gt;&lt;p&gt;I want to see how url works.&lt;br&gt;
     
     </summary>
     
@@ -34,14 +34,14 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2018/12/29/hello-world/"/>
-    <id>http://yoursite.com/2018/12/29/hello-world/</id>
+    <link href="https://ibrucelee.xyz/2018/12/29/hello-world/"/>
+    <id>https://ibrucelee.xyz/2018/12/29/hello-world/</id>
     <published>2018-12-29T10:46:34.816Z</published>
     <updated>2018-12-31T03:18:51.557Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub&lt;/a&gt;.&lt;br&gt;&lt;/p&gt;
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub&lt;/a&gt;.&lt;br&gt;
     
     </summary>
     
@@ -50,14 +50,14 @@
   
   <entry>
     <title>Test</title>
-    <link href="http://yoursite.com/2018/12/28/test/"/>
-    <id>http://yoursite.com/2018/12/28/test/</id>
+    <link href="https://ibrucelee.xyz/2018/12/28/test/"/>
+    <id>https://ibrucelee.xyz/2018/12/28/test/</id>
     <published>2018-12-28T05:40:00.000Z</published>
     <updated>2018-12-31T03:18:31.168Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;Hello World！&lt;br&gt;&lt;/p&gt;
+      &lt;p&gt;Hello World！&lt;br&gt;
     
     </summary>
     
