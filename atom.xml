@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ibrucelee.xyz/"/>
-  <updated>2019-01-01T11:16:14.651Z</updated>
+  <updated>2019-01-04T08:53:24.724Z</updated>
   <id>https://ibrucelee.xyz/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Leetcode-1.Two Sum</title>
+    <link href="https://ibrucelee.xyz/2019/01/04/Leetcode-1.Two-Sum/"/>
+    <id>https://ibrucelee.xyz/2019/01/04/Leetcode-1.Two-Sum/</id>
+    <published>2019-01-04T06:28:15.000Z</published>
+    <updated>2019-01-04T08:53:24.724Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Two-Sum&quot;&gt;&lt;a href=&quot;#Two-Sum&quot; class=&quot;headerlink&quot; title=&quot;Two Sum&quot;&gt;&lt;/a&gt;Two Sum&lt;/h1&gt;&lt;p&gt;leetcode第一题&lt;/p&gt;
+&lt;h2 id=&quot;题目要求&quot;&gt;&lt;a href=&quot;#题目要求&quot; class=&quot;headerlink&quot; title=&quot;题目要求&quot;&gt;&lt;/a&gt;题目要求&lt;/h2&gt;&lt;p&gt;Given an array of integers, return indices of the two numbers such that they add up to a specific target.&lt;/p&gt;
+&lt;p&gt;You may assume that each input would have exactly one solution, and you may not use the same element twice.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt; &lt;/p&gt;
+ &lt;figure class=&quot;highlight tex&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;Given nums = [2, 7, 11, 15], target = 9,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Because nums[0] + nums[1] = 2 + 7 = 9,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;return [0, 1].&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+      <category term="leetcode" scheme="https://ibrucelee.xyz/categories/leetcode/"/>
+    
+    
+      <category term="c++" scheme="https://ibrucelee.xyz/tags/c/"/>
+    
+  </entry>
   
   <entry>
     <title>2018Summary</title>
