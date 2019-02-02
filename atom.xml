@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ibrucelee.xyz/"/>
-  <updated>2019-01-04T08:53:24.724Z</updated>
+  <updated>2019-02-02T12:38:50.905Z</updated>
   <id>https://ibrucelee.xyz/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Leetcode-2.Add Two Numbers</title>
+    <link href="https://ibrucelee.xyz/2019/02/01/Leetcode-2-Add-Two-Numbers/"/>
+    <id>https://ibrucelee.xyz/2019/02/01/Leetcode-2-Add-Two-Numbers/</id>
+    <published>2019-02-01T04:39:05.000Z</published>
+    <updated>2019-02-02T12:38:50.905Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Add-Two-Numbers&quot;&gt;&lt;a href=&quot;#Add-Two-Numbers&quot; class=&quot;headerlink&quot; title=&quot;Add Two Numbers&quot;&gt;&lt;/a&gt;Add Two Numbers&lt;/h1&gt;&lt;p&gt;leetcode第二题&lt;/p&gt;
+&lt;h2 id=&quot;题目要求&quot;&gt;&lt;a href=&quot;#题目要求&quot; class=&quot;headerlink&quot; title=&quot;题目要求&quot;&gt;&lt;/a&gt;题目要求&lt;/h2&gt;&lt;p&gt;You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.&lt;/p&gt;
+&lt;p&gt;You may assume the two numbers do not contain any leading zero, except the number 0 itself.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight tex&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;Input: (2 -&amp;gt; 4 -&amp;gt; 3) + (5 -&amp;gt; 6 -&amp;gt; 4)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Output: 7 -&amp;gt; 0 -&amp;gt; 8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Explanation: 342 + 465 = 807.&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+      <category term="leetcode" scheme="https://ibrucelee.xyz/categories/leetcode/"/>
+    
+    
+      <category term="c++" scheme="https://ibrucelee.xyz/tags/c/"/>
+    
+  </entry>
   
   <entry>
     <title>Leetcode-1.Two Sum</title>
