@@ -115,23 +115,23 @@
 <meta name="keywords" content="c++">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Leetcode-2.Add Two Numbers">
-<meta property="og:url" content="https://ibrucelee.xyz/2019/02/01/Leetcode-2-Add-Two-Numbers/index.html">
+<meta property="og:url" content="https://ibrucelee.xyz/2019/02/01/Leetcode-2.Add-Two-Numbers/index.html">
 <meta property="og:site_name" content="黑山羊的博客">
 <meta property="og:description" content="Add Two Numbersleetcode第二题 题目要求You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order and each of their nodes contain a single digit. A">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="https://ibrucelee.xyz/2019/02/01/Leetcode-2-Add-Two-Numbers/result1.jpg">
-<meta property="og:image" content="https://ibrucelee.xyz/2019/02/01/Leetcode-2-Add-Two-Numbers/result2.jpg">
-<meta property="og:image" content="https://ibrucelee.xyz/2019/02/01/Leetcode-2-Add-Two-Numbers/result3.jpg">
-<meta property="og:image" content="https://ibrucelee.xyz/2019/02/01/Leetcode-2-Add-Two-Numbers/result4.jpg">
-<meta property="og:image" content="https://ibrucelee.xyz/2019/02/01/Leetcode-2-Add-Two-Numbers/result5.jpg">
-<meta property="og:image" content="https://ibrucelee.xyz/2019/02/01/Leetcode-2-Add-Two-Numbers/submit1.jpg">
-<meta property="og:image" content="https://ibrucelee.xyz/2019/02/01/Leetcode-2-Add-Two-Numbers/submit2.jpg">
-<meta property="og:image" content="https://ibrucelee.xyz/2019/02/01/Leetcode-2-Add-Two-Numbers/submit3.jpg">
+<meta property="og:image" content="https://ibrucelee.xyz/2019/02/01/Leetcode-2.Add-Two-Numbers/result1.jpg">
+<meta property="og:image" content="https://ibrucelee.xyz/2019/02/01/Leetcode-2.Add-Two-Numbers/result2.jpg">
+<meta property="og:image" content="https://ibrucelee.xyz/2019/02/01/Leetcode-2.Add-Two-Numbers/result3.jpg">
+<meta property="og:image" content="https://ibrucelee.xyz/2019/02/01/Leetcode-2.Add-Two-Numbers/result4.jpg">
+<meta property="og:image" content="https://ibrucelee.xyz/2019/02/01/Leetcode-2.Add-Two-Numbers/result5.jpg">
+<meta property="og:image" content="https://ibrucelee.xyz/2019/02/01/Leetcode-2.Add-Two-Numbers/submit1.jpg">
+<meta property="og:image" content="https://ibrucelee.xyz/2019/02/01/Leetcode-2.Add-Two-Numbers/submit2.jpg">
+<meta property="og:image" content="https://ibrucelee.xyz/2019/02/01/Leetcode-2.Add-Two-Numbers/submit3.jpg">
 <meta property="og:updated_time" content="2019-02-02T13:31:51.808Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Leetcode-2.Add Two Numbers">
 <meta name="twitter:description" content="Add Two Numbersleetcode第二题 题目要求You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order and each of their nodes contain a single digit. A">
-<meta name="twitter:image" content="https://ibrucelee.xyz/2019/02/01/Leetcode-2-Add-Two-Numbers/result1.jpg">
+<meta name="twitter:image" content="https://ibrucelee.xyz/2019/02/01/Leetcode-2.Add-Two-Numbers/result1.jpg">
 
 
 
@@ -140,7 +140,7 @@
 
 
 
-  <link rel="canonical" href="https://ibrucelee.xyz/2019/02/01/Leetcode-2-Add-Two-Numbers/">
+  <link rel="canonical" href="https://ibrucelee.xyz/2019/02/01/Leetcode-2.Add-Two-Numbers/">
 
 
 
@@ -382,7 +382,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://ibrucelee.xyz/2019/02/01/Leetcode-2-Add-Two-Numbers/">
+    <link itemprop="mainEntityOfPage" href="https://ibrucelee.xyz/2019/02/01/Leetcode-2.Add-Two-Numbers/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Bruce Lee">
@@ -475,8 +475,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2019/02/01/Leetcode-2-Add-Two-Numbers/#comments" itemprop="discussionUrl">
-                  <span class="post-meta-item-text">评论数：</span> <span class="post-comments-count valine-comment-count" data-xid="/2019/02/01/Leetcode-2-Add-Two-Numbers/" itemprop="commentCount"></span>
+                <a href="/2019/02/01/Leetcode-2.Add-Two-Numbers/#comments" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">评论数：</span> <span class="post-comments-count valine-comment-count" data-xid="/2019/02/01/Leetcode-2.Add-Two-Numbers/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -565,31 +565,31 @@
 <p>一方虽然完了，按道理将剩下的那个数的剩下位数全部接在后面即可。但是如果有进位的话，很可能另一方的所剩数全是9，就会一直进位，所以需要一个while(carry)进行操作。最后根据是否进位来补最高位。</p>
 <p>好了，考虑完所有情况了，来进行测试吧：</p>
 <p>首先用比较简单的4321 + 4321</p>
-<img src="/2019/02/01/Leetcode-2-Add-Two-Numbers/result1.jpg">
+<img src="/2019/02/01/Leetcode-2.Add-Two-Numbers/result1.jpg">
 <p>???</p>
 <p>为啥结果是减过48的？</p>
 <p>经过检查，发现数字在读进来的时候就是加过48的，进行计算之后变成单位数字，但还是被减了48：</p>
-<img src="/2019/02/01/Leetcode-2-Add-Two-Numbers/result2.jpg">
+<img src="/2019/02/01/Leetcode-2.Add-Two-Numbers/result2.jpg">
 <p>哦我懂了，减48的位置需要做一些调整，即读的时候减，输出的时候不用减了</p>
 <p>即创建链表和输出链表改成这样：</p>
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">ListNode* <span class="title">createList</span><span class="params">(<span class="built_in">string</span> number)</span> </span>&#123;</span><br><span class="line">        ListNode* start = <span class="keyword">new</span> ListNode(number.at(<span class="number">0</span>) - <span class="number">48</span>);</span><br><span class="line">        ListNode* l1 = start;</span><br><span class="line">        number.erase(<span class="number">0</span>,<span class="number">1</span>);</span><br><span class="line">        <span class="keyword">while</span>(!number.empty())</span><br><span class="line">        &#123;</span><br><span class="line">            l1-&gt;next = <span class="keyword">new</span> ListNode(number.at(<span class="number">0</span>) - <span class="number">48</span>);</span><br><span class="line">            l1 = l1-&gt;next;</span><br><span class="line">			number.erase(<span class="number">0</span>,<span class="number">1</span>);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> start;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">printList</span><span class="params">(ListNode* l1)</span> </span>&#123;</span><br><span class="line">        <span class="built_in">string</span> result = <span class="string">""</span>;</span><br><span class="line">        <span class="keyword">while</span>(l1-&gt;next != <span class="literal">NULL</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            result.append(to_string(l1-&gt;val) + <span class="string">"-&gt;"</span>);</span><br><span class="line">            l1 = l1-&gt;next;</span><br><span class="line">        &#125;</span><br><span class="line">        result.append(to_string(l1-&gt;val));</span><br><span class="line">        <span class="built_in">cout</span> &lt;&lt; <span class="string">"The result is : "</span> &lt;&lt; result &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
 <p>虽然这对结果没什么影响就是了。</p>
 <p>于是进行测试吧！</p>
 <p>4721 + 00001，应得47211：</p>
-<img src="/2019/02/01/Leetcode-2-Add-Two-Numbers/result3.jpg">
+<img src="/2019/02/01/Leetcode-2.Add-Two-Numbers/result3.jpg">
 <p>4721 + 8278，应得20001:</p>
-<img src="/2019/02/01/Leetcode-2-Add-Two-Numbers/result4.jpg">
+<img src="/2019/02/01/Leetcode-2.Add-Two-Numbers/result4.jpg">
 <p>4727 + 8278，应得20061:</p>
-<img src="/2019/02/01/Leetcode-2-Add-Two-Numbers/result5.jpg">
+<img src="/2019/02/01/Leetcode-2.Add-Two-Numbers/result5.jpg">
 <p>暂时没啥问题，提交试试：</p>
-<img src="/2019/02/01/Leetcode-2-Add-Two-Numbers/submit1.jpg">
+<img src="/2019/02/01/Leetcode-2.Add-Two-Numbers/submit1.jpg">
 <p>emmmm看了看代码，发现问题了：</p>
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">while</span>(carry)</span><br><span class="line">            &#123;</span><br><span class="line">                left-&gt;val += <span class="number">1</span>;</span><br><span class="line">                <span class="keyword">if</span>(left-&gt;val == <span class="number">10</span>)</span><br><span class="line">                &#123;</span><br><span class="line">                    left-&gt;val = <span class="number">0</span>;</span><br><span class="line">                    <span class="built_in">cout</span> &lt;&lt; left-&gt;val &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">                    <span class="comment">//判断剩余的那个链是否结束</span></span><br><span class="line">                    <span class="keyword">if</span>(left-&gt;next == <span class="literal">NULL</span>)</span><br><span class="line">                        left-&gt;next = <span class="keyword">new</span> ListNode(<span class="number">1</span>);</span><br><span class="line">                    <span class="keyword">else</span></span><br><span class="line">                        left= left-&gt;next;</span><br><span class="line">                &#125;</span><br><span class="line">                <span class="keyword">else</span></span><br><span class="line">                    carry = <span class="literal">false</span>;</span><br><span class="line">            &#125;</span><br></pre></td></tr></table></figure>
 <p>就是在剩余一条链表的时候，如果最后一位产生了进位，那么在进入最后一次循环的时候，还要把停留在前一次循环的left链表的val加一，导致了出错…</p>
 <p>改成这样应该对了：</p>
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">while</span>(carry)</span><br><span class="line">            &#123;</span><br><span class="line">                left-&gt;val += <span class="number">1</span>;</span><br><span class="line">                <span class="keyword">if</span>(left-&gt;val == <span class="number">10</span>)</span><br><span class="line">                &#123;</span><br><span class="line">                    left-&gt;val = <span class="number">0</span>;</span><br><span class="line">                    <span class="built_in">cout</span> &lt;&lt; left-&gt;val &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">                    <span class="comment">//判断剩余的那个链是否结束</span></span><br><span class="line">                    <span class="keyword">if</span>(left-&gt;next == <span class="literal">NULL</span>)</span><br><span class="line">                    &#123;</span><br><span class="line">                        left-&gt;next = <span class="keyword">new</span> ListNode(<span class="number">1</span>);</span><br><span class="line">                        carry = <span class="literal">false</span>;</span><br><span class="line">                    &#125;</span><br><span class="line">                    <span class="keyword">else</span></span><br><span class="line">                        left= left-&gt;next;</span><br><span class="line">                &#125;</span><br><span class="line">                <span class="keyword">else</span></span><br><span class="line">                    carry = <span class="literal">false</span>;</span><br><span class="line">            &#125;</span><br></pre></td></tr></table></figure>
 <p>再试一次：</p>
-<img src="/2019/02/01/Leetcode-2-Add-Two-Numbers/submit2.jpg">
+<img src="/2019/02/01/Leetcode-2.Add-Two-Numbers/submit2.jpg">
 <p>卧槽…………………………………1.1%…………………………………….</p>
 <hr>
 <h2 id="改进算法"><a href="#改进算法" class="headerlink" title="改进算法"></a>改进算法</h2><p>去判断，去循环！！！！</p>
@@ -599,7 +599,7 @@
 <h3 id="version-3-0"><a href="#version-3-0" class="headerlink" title="version 3.0"></a>version 3.0</h3><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">ListNode* <span class="title">addTwoNumbers</span><span class="params">(ListNode* l1, ListNode* l2)</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">        ListNode* start = <span class="keyword">new</span> ListNode(<span class="number">0</span>);        <span class="comment">//起始点</span></span><br><span class="line">        ListNode* l3 = start;                     <span class="comment">//操作指针</span></span><br><span class="line">        <span class="keyword">int</span> carry = <span class="number">0</span>;                            <span class="comment">//进位标识</span></span><br><span class="line">        <span class="keyword">int</span> value = <span class="number">0</span>, val1 = <span class="number">0</span>, val2 = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">while</span>(l1 || l2)</span><br><span class="line">        &#123;</span><br><span class="line">            val1 = l1 ? l1-&gt;val : <span class="number">0</span>;</span><br><span class="line">            val2 = l2 ? l2-&gt;val : <span class="number">0</span>;</span><br><span class="line">            value = val1 + val2 + carry;</span><br><span class="line"></span><br><span class="line">            <span class="comment">//对进位进行处理</span></span><br><span class="line">            <span class="keyword">if</span>(value &gt;= <span class="number">10</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                value = value % <span class="number">10</span>;</span><br><span class="line">                carry = <span class="number">1</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span></span><br><span class="line">                carry = <span class="number">0</span>;</span><br><span class="line">            <span class="comment">//创建新的节点</span></span><br><span class="line">            ListNode* temp = <span class="keyword">new</span> ListNode(value);</span><br><span class="line">            l3-&gt;next = temp;</span><br><span class="line">            l3 = l3-&gt;next;</span><br><span class="line">            <span class="keyword">if</span>(l1)l1 = l1-&gt;next;</span><br><span class="line">            <span class="keyword">if</span>(l2)l2 = l2-&gt;next;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span>(carry)</span><br><span class="line">        &#123;</span><br><span class="line">            l3-&gt;next = <span class="keyword">new</span> ListNode(<span class="number">1</span>);</span><br><span class="line">        &#125;</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">return</span> start-&gt;next;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
 <p>虽然看起来还是挺长，但是从63行变到35行，已经不错了</p>
 <p>赶紧试试：</p>
-<img src="/2019/02/01/Leetcode-2-Add-Two-Numbers/submit3.jpg">
+<img src="/2019/02/01/Leetcode-2.Add-Two-Numbers/submit3.jpg">
 <p>提升了这么大？？我是没懂，你们呢？</p>
 <hr>
 <h2 id="version-4-0"><a href="#version-4-0" class="headerlink" title="version 4.0????"></a>version 4.0????</h2><p>重新审视一遍代码，我发现while循环里，最开始判断l1&amp;l2的语句，以及最后移向next的时候判断l1&amp;l2可以合并一下，即：</p>
@@ -624,12 +624,12 @@
   <!-- JS库 sweetalert 可修改路径 -->
   <script src="https://cdn.bootcss.com/jquery/2.0.0/jquery.min.js"></script>
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-  <p><span>Title:</span><a href="/2019/02/01/Leetcode-2-Add-Two-Numbers/">Leetcode-2.Add Two Numbers</a></p>
+  <p><span>Title:</span><a href="/2019/02/01/Leetcode-2.Add-Two-Numbers/">Leetcode-2.Add Two Numbers</a></p>
   <p><span>Author:</span><a href="/" title="访问 Bruce Lee 的个人博客">Bruce Lee</a></p>
   <p><span>First Pub:</span>2019/02/01 - 12:39</p>
   <p><span>Update:</span>2019/02/02 - 21:31</p>
-  <p><span>URL:</span><a href="https://ibrucelee.xyz/2019/02/01/Leetcode-2-Add-Two-Numbers/" title="Leetcode-2.Add Two Numbers">https://ibrucelee.xyz/2019/02/01/Leetcode-2-Add-Two-Numbers/</a>
-    <span class="copy-path" title="Copy URL"><i class="fa fa-clipboard" data-clipboard-text="https://ibrucelee.xyz/2019/02/01/Leetcode-2-Add-Two-Numbers/" aria-label="Copy succeed "></i></span>
+  <p><span>URL:</span><a href="https://ibrucelee.xyz/2019/02/01/Leetcode-2.Add-Two-Numbers/" title="Leetcode-2.Add Two Numbers">https://ibrucelee.xyz/2019/02/01/Leetcode-2.Add-Two-Numbers/</a>
+    <span class="copy-path" title="Copy URL"><i class="fa fa-clipboard" data-clipboard-text="https://ibrucelee.xyz/2019/02/01/Leetcode-2.Add-Two-Numbers/" aria-label="Copy succeed "></i></span>
   </p>
   <p><span>Copyright:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">CC-BY-NC-ND 4.0 International</a> 转载请保留链接及作者。</p>
 </div>
