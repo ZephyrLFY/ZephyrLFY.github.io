@@ -124,6 +124,7 @@
 <meta property="og:image" content="https://ibrucelee.xyz/2019/02/01/Leetcode-2-Add-Two-Numbers/result3.png">
 <meta property="og:image" content="https://ibrucelee.xyz/2019/02/01/Leetcode-2-Add-Two-Numbers/result4.png">
 <meta property="og:image" content="https://ibrucelee.xyz/2019/02/01/Leetcode-2-Add-Two-Numbers/result5.png">
+<meta property="og:image" content="https://ibrucelee.xyz/2019/02/01/Leetcode-2-Add-Two-Numbers/submit1.png">
 <meta property="og:image" content="https://ibrucelee.xyz/2019/02/01/Leetcode-2-Add-Two-Numbers/submit2.png">
 <meta property="og:image" content="https://ibrucelee.xyz/2019/02/01/Leetcode-2-Add-Two-Numbers/submit3.png">
 <meta property="og:updated_time" content="2019-02-02T12:43:02.519Z">
@@ -581,7 +582,7 @@
 <p>4727 + 8278，应得20061:</p>
 <img src="/2019/02/01/Leetcode-2-Add-Two-Numbers/result5.png">
 <p>暂时没啥问题，提交试试：</p>
-
+<img src="/2019/02/01/Leetcode-2-Add-Two-Numbers/submit1.png">
 <p>emmmm看了看代码，发现问题了：</p>
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">while</span>(carry)</span><br><span class="line">            &#123;</span><br><span class="line">                left-&gt;val += <span class="number">1</span>;</span><br><span class="line">                <span class="keyword">if</span>(left-&gt;val == <span class="number">10</span>)</span><br><span class="line">                &#123;</span><br><span class="line">                    left-&gt;val = <span class="number">0</span>;</span><br><span class="line">                    <span class="built_in">cout</span> &lt;&lt; left-&gt;val &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">                    <span class="comment">//判断剩余的那个链是否结束</span></span><br><span class="line">                    <span class="keyword">if</span>(left-&gt;next == <span class="literal">NULL</span>)</span><br><span class="line">                        left-&gt;next = <span class="keyword">new</span> ListNode(<span class="number">1</span>);</span><br><span class="line">                    <span class="keyword">else</span></span><br><span class="line">                        left= left-&gt;next;</span><br><span class="line">                &#125;</span><br><span class="line">                <span class="keyword">else</span></span><br><span class="line">                    carry = <span class="literal">false</span>;</span><br><span class="line">            &#125;</span><br></pre></td></tr></table></figure>
 <p>就是在剩余一条链表的时候，如果最后一位产生了进位，那么在进入最后一次循环的时候，还要把停留在前一次循环的left链表的val加一，导致了出错…</p>
