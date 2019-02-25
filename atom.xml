@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ibrucelee.xyz/"/>
-  <updated>2019-02-02T13:31:51.808Z</updated>
+  <updated>2019-02-05T07:54:27.422Z</updated>
   <id>https://ibrucelee.xyz/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Leetcode-3.Longest Substring Without Repeating Characters</title>
+    <link href="https://ibrucelee.xyz/2019/02/05/Leetcode-3-Longest-Substring-Without-Repeating-Characters/"/>
+    <id>https://ibrucelee.xyz/2019/02/05/Leetcode-3-Longest-Substring-Without-Repeating-Characters/</id>
+    <published>2019-02-05T06:00:01.000Z</published>
+    <updated>2019-02-05T07:54:27.422Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Longest-Substring-Without-Reapting-Characters&quot;&gt;&lt;a href=&quot;#Longest-Substring-Without-Reapting-Characters&quot; class=&quot;headerlink&quot; title=&quot;Longest Substring Without Reapting Characters&quot;&gt;&lt;/a&gt;Longest Substring Without Reapting Characters&lt;/h1&gt;&lt;p&gt;Leetcode第三题&lt;/p&gt;
+&lt;h2 id=&quot;题目要求&quot;&gt;&lt;a href=&quot;#题目要求&quot; class=&quot;headerlink&quot; title=&quot;题目要求&quot;&gt;&lt;/a&gt;题目要求&lt;/h2&gt;&lt;p&gt;Given a string, find the length of the &lt;strong&gt;longest substring&lt;/strong&gt; without repeating characters.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example1:&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight tex&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;Input: &quot;abcabcbb&quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Output: 3 &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Explanation: The answer is &quot;abc&quot;, with the length of 3.&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;Example2:&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight tex&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;Input: &quot;bbbbb&quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Output: 1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Explanation: The answer is &quot;b&quot;, with the length of 1.&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;Example3:&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight tex&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;Input: &quot;pwwkew&quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Output: 3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Explanation: The answer is &quot;wke&quot;, with the length of 3. &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;             Note that the answer must be a substring, &quot;pwke&quot; is a subsequence and not a substring.&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+      <category term="true" scheme="https://ibrucelee.xyz/categories/true/"/>
+    
+    
+      <category term="c++" scheme="https://ibrucelee.xyz/tags/c/"/>
+    
+  </entry>
   
   <entry>
     <title>Leetcode-2.Add Two Numbers</title>
