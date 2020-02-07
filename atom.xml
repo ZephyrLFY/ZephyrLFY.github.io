@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ibrucelee.xyz/"/>
-  <updated>2019-12-18T08:50:08.296Z</updated>
+  <updated>2020-02-07T15:53:30.307Z</updated>
   <id>https://ibrucelee.xyz/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Python笔记</title>
+    <link href="https://ibrucelee.xyz/2020/02/07/Python%E7%AC%94%E8%AE%B0/"/>
+    <id>https://ibrucelee.xyz/2020/02/07/Python笔记/</id>
+    <published>2020-02-07T15:47:16.000Z</published>
+    <updated>2020-02-07T15:53:30.307Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Python学习笔记（更新中）&quot;&gt;&lt;a href=&quot;#Python学习笔记（更新中）&quot; class=&quot;headerlink&quot; title=&quot;Python学习笔记（更新中）&quot;&gt;&lt;/a&gt;Python学习笔记（更新中）&lt;/h1&gt;&lt;p&gt;第三门系统性学习的编程语言，本文持续更新&lt;/p&gt;
+&lt;p&gt;需要注意的是本文仅作个人学习笔记使用，没什么参考价值…&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="笔记" scheme="https://ibrucelee.xyz/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="Python" scheme="https://ibrucelee.xyz/tags/Python/"/>
+    
+  </entry>
   
   <entry>
     <title>申请季的一些感想</title>
@@ -44,7 +65,7 @@
     <link href="https://ibrucelee.xyz/2019/03/14/Leetcode-4-Median-Of-Two-Arrays/"/>
     <id>https://ibrucelee.xyz/2019/03/14/Leetcode-4-Median-Of-Two-Arrays/</id>
     <published>2019-03-14T12:02:33.000Z</published>
-    <updated>2019-08-01T02:01:56.458Z</updated>
+    <updated>2020-02-07T15:50:47.928Z</updated>
     
     <summary type="html">
     
@@ -59,7 +80,7 @@
     
     </summary>
     
-      <category term="true" scheme="https://ibrucelee.xyz/categories/true/"/>
+      <category term="leetcode" scheme="https://ibrucelee.xyz/categories/leetcode/"/>
     
     
       <category term="c++" scheme="https://ibrucelee.xyz/tags/c/"/>
@@ -71,7 +92,7 @@
     <link href="https://ibrucelee.xyz/2019/02/05/Leetcode-3-Longest-Substring-Without-Repeating-Characters/"/>
     <id>https://ibrucelee.xyz/2019/02/05/Leetcode-3-Longest-Substring-Without-Repeating-Characters/</id>
     <published>2019-02-05T06:00:01.000Z</published>
-    <updated>2019-03-14T11:16:10.806Z</updated>
+    <updated>2020-02-07T15:50:37.047Z</updated>
     
     <summary type="html">
     
@@ -86,7 +107,7 @@
     
     </summary>
     
-      <category term="true" scheme="https://ibrucelee.xyz/categories/true/"/>
+      <category term="leetcode" scheme="https://ibrucelee.xyz/categories/leetcode/"/>
     
     
       <category term="c++" scheme="https://ibrucelee.xyz/tags/c/"/>
